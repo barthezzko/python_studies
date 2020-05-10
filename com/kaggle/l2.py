@@ -11,4 +11,4 @@ def least_difference(a, b, c):
     return min(diff1, diff2, diff3)
 
 
-print(least_difference(1, 45, 20))
+assert 19 == least_difference(1, 45, 20)
